@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Página de presentación de Districosman">
+  <meta name="author" content="Deyner Steven Rendon Valladares dsrendon@misena.edu.co">
+  <meta name="Editor" content="Martin Arboleda marboleda@solucionestics.com">
+
+  <!--
+   Editor Martin Arboleda marboleda@solucionestics.com
+   Fecha Noviembre/11/2018
+   Fecha Actualización Noviembre/11/2018
+   Version 1
+  -->
+  
+  <title>Districosman</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../../pagina_web/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../../pagina_web/css/modern-business.css" rel="stylesheet">
+ </head>
+ <body>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+   <div class="container">
+    <a class="navbar-brand" href="">Districosman</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+     <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+       <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#registro">Registrarme</button>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="../login">Ingresar</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+
+  <header>
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+     <!-- Slide One - Set the background image for this slide in the line below -->
+     <div class="carousel-item active" style="background-image: url('../../pagina_web/img/Pinta_Labios.jpg')">
+      <div class="carousel-caption d-none d-md-block">
+       <h3>Cosmeticos</h3>
+       <p>Una gran variedad de productos para la belleza.</p>
+      </div>
+     </div>
+     <!-- Slide Two - Set the background image for this slide in the line below -->
+     <div class="carousel-item" style="background-image: url('../../pagina_web/img/Maquillaje.jpg')">
+      <div class="carousel-caption d-none d-md-block">
+       <h3>Cuidado de la piel</h3>
+       <p>Las mejores marcas en Maquillaje.</p>
+      </div>
+     </div>
+     <!-- Slide Three - Set the background image for this slide in the line below -->
+     <div class="carousel-item" style="background-image: url('../../pagina_web/img/Esmaltes.jpg')">
+      <div class="carousel-caption d-none d-md-block">
+       <h3>Manicure</h3>
+       <p>Todo para Manicure y Pedicure.</p>
+      </div>
+     </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Próximo</span>
+    </a>
+   </div>
+  </header>
+  <!-- Page Content -->
+  <div class="container">
+   <h1 class="my-4">Districosman, los mejores y mas variado en productos para la Belleza</h1>
+   <!-- Features Section -->
+   <div class="row">
+    <div class="col-lg-6">
+     <h2>Siempre dispuestos y comprometidos</h2>
+     <p>Con nuestros clientes para ofrecerles</p>
+     <ul>
+      <li><strong>Productos y servicios</strong></li>
+      <li>Variados</li>
+      <li>de calidad</li>
+      <li>a los mejores precios</li>
+      <li>con las mejores condiciones de pago y entrega</li>
+     </ul>
+     <p>Somos una Empresa en constante crecimiento y buscando las mejores alternativas para ofrecerle a nuestros clientes el mejor servicio, representamos las mejores marcas y validamos que sean de calidad.</p>
+    </div>
+    <div class="col-lg-6">
+     <img class="img-fluid rounded" src="../../pagina_web/img/3.jpg" alt="">
+    </div>
+   </div>
+   <!-- /.row -->
+   <hr>
+   <!-- Call to Action Section -->
+   <div class="row mb-4">
+    <div class="col-md-8">
+     <p>Lo invitamos para que ingrese a nuestra aplicación y prepare sus pedidos usted mismo, de esta menera buscamos optimizar el proceso y mejorar tiempos de entrega</p>
+    </div>
+    <div class="col-md-4">
+     <a class="btn btn-lg btn-secondary btn-block" href="../login">Ingresar</a>
+    </div>
+
+   </div>
+  </div>
+
+  <!-- /. ventana emergente para registro -->
+  <div class="modal" id="registro">
+   <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content" style="height:450px">
+     <div class="modal-header">
+      <h2 class="modal-title">Registro</h2>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+       <span aria-hidden="true">&times;</span>
+      </button>
+     </div>
+     <br>
+     <div class="modal-body">
+      <form action="../registro/registro.php" method="post">
+       <div class="row justify-content-center">
+        <div class="col-lg-4">
+         <label class="col-form-label" for="inputDefault">(*) Nombres</label>
+         <input type="text" class="form-control" placeholder="" id="nombre" name="nombre" required>
+        </div>
+        <div class="col-lg-4">
+         <label class="col-form-label" for="inputDefault">(*) Cedula</label>
+         <input type="text" class="form-control" placeholder="" id="cedula" name="documento" required>
+        </div>
+        <div class="col-lg-4">
+         <label class="col-form-label" for="inputDefault">(*) Digite una contraseña</label>
+         <input class="form-control" id="pass1" name="pass" placeholder="" required type="password"/>
+         <p class="text-danger" id="contra"></p>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-4">
+         <label class="col-form-label" for="inputDefault">(*) Telefono</label>
+         <input type="text" class="form-control" placeholder="" id="telefono" name="telefono" required>
+        </div>
+        <div class="col-lg-4">
+         <label class="col-form-label" for="inputDefault">(*) Direccion</label>
+         <input type="text" class="form-control" placeholder="" name="direccion" id="direccion" required>
+        </div>
+        <div class="col-lg-4">
+         <label class="col-form-label" for="inputDefault">(*) Barrio</label>
+         <input type="text" class="form-control" placeholder="" name="barrio" id="barrio" required>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-4">
+         <label class="col-form-label" for="inputDefault">(*) Ciudad</label>
+         <input type="text" class="form-control" placeholder="" name="ciudad" id="ciudad" required>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-4">
+         <p><input type="checkbox" required> Acepto terminos y condiciones</p>
+         <button type="submit" class="btn btn-primary" id="btn-ingresar">Registrarme</button>
+        </div>
+       </div>
+       <br>
+      </form>
+     </div>
+    </div>
+   </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+   <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Distriscosman 2018</p>
+   </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../../pagina_web/vendor/jquery/jquery.min.js"></script>
+  <script src="../../pagina_web/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- /. ajax -->
+  <script src="../ajaxRegistro.js"></script>
+ </body>
+</html>

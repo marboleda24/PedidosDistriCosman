@@ -1,0 +1,5 @@
+.logo{width: 100%;text-align: center}
+img{width: 200px;margin: auto;}
+.fondo{background: #F4EBE9;padding: 20px;border-radius: 10px;margin: 10px;}
+.formulario{background-image: url(../img/formulario.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: fixed;background-size: cover;color: #fff;}
+.banner{background-image:url(../img/est.jpg);height: 375px;background-position: center center;background-repeat: no-repeat;background-size: cover}
