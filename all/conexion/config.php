@@ -11,7 +11,7 @@
   * @version 1
   */
  define('SERVIDOR','localhost');
- define('USUARIO','martin');
- define('PASS','M**m_0224');
+ define('USUARIO','districosman');
+ define('PASS','DistriCosm*n');
  define('BD','cosmeticos');
 ?>

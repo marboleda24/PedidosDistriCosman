@@ -47,7 +47,7 @@
               <div class="col-lg-12">
                     <div class="form-group">
                       <input type="text" class="form-control" placeholder="Ciudad" id="inputDefault" name="ciudad">
-                      <input type="hidden" value="1" class="form-control" placeholder="Ciudad" id="inputDefault" name="rol">
+                      <input type="hidden" value="1" class="form-control" id="inputDefault" name="rol">
                     </div>
               </div>
               <div class="col-lg-12">
