@@ -9,11 +9,12 @@ $direccion = $_POST['direccion'];
 $barrio = $_POST['barrio'];
 $ciudad = $_POST['ciudad'];
 $rol = $_POST['rol'];
+$pass = md5($documento);
 
 $sql = "INSERT INTO usuarios
         (nombre,usuario,pass,documento,telefono,direccion,barrio,ciudad,rol)
         VALUES
-        ('$nombre','$documento','$documento','$documento','$telefono','$direccion','$barrio','$ciudad','$rol')";
+        ('$nombre','$documento','$pass','$documento','$telefono','$direccion','$barrio','$ciudad','$rol')";
 
 $query = mysqli_query($conexion, $sql);
 

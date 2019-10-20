@@ -1,30 +1,29 @@
 <?php
+ /**
+  * Funciones de la carga de imagenes
+  *
+  * @author Deyner Steven Rendon Valladares <dsrendon@misena.edu.co>
+  * @Editor Martin Arboleda <marboleda@solucionestics.com>
+  * @Fecha Diciembre/15/2018
+  * @FechaEdicion Diciembre/15/2018
+  * @version 1
+  */
 
-class FuncionesCatalogo
-{
-
-    function mostrar_fotos($con, $where)
-    {
-
-        if($where)
-        {
-
-            $consulta = mysqli_query($con, "SELECT * FROM img WHERE categoria LIKE '%".$where."%' || nombre_img LIKE '%".$where."%'");
-
-            return $consulta;
-
-        }
-        else
-        {
-
-            $resultado = mysqli_query($con, "SELECT * FROM img");
-
-            return $resultado;
-
-        }
-
-
-    }
+ class FuncionesCatalogo
+ {
+  function mostrar_fotos($con, $where)
+  {
+   if($where)
+   {
+    $consulta = mysqli_query($con, "SELECT * FROM img WHERE categoria LIKE '%".$where."%' || nombre_img LIKE '%".$where."%'");
+    return $consulta;
+   }
+   else
+   {
+    $resultado = mysqli_query($con, "SELECT * FROM img");
+    return $resultado;
+   }
+  }
 
     function mostrar($con)
     {

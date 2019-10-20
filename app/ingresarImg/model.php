@@ -1,7 +1,15 @@
 <?php
-
-require '../../all/conexion/conexion.php';
-require 'funciones.php';
+ /**
+  * Modelo para ingresar Imagen
+  *
+  * @author Deyner Steven Rendon Valladares <dsrendon@misena.edu.co>
+  * @Editor Martin Arboleda <marboleda@solucionestics.com>
+  * @Fecha Diciembre/18/2018
+  * @FechaEdicion Diciembre/18/2018
+  * @version 1
+  */
+ require '../../all/conexion/conexion.php';
+ require 'funciones.php';
 
 if(isset($_POST['btn-img']))
 {

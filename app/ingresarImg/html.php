@@ -1,21 +1,29 @@
-<?php require '../../all/overall/header.php'; ?>
+<?php 
+ /**
+  * Vista de ingresar Imagen
+  *
+  * Formulario para el ingreso de imagenes
+  *
+  * @author Deyner Steven Rendon Valladares <dsrendon@misena.edu.co>
+  * @Editor Martin Arboleda <marboleda@solucionestics.com>
+  * @Fecha Diciembre/18/2018
+  * @FechaEdicion Diciembre/18/2018
+  * @version 1
+  */
+ require '../../all/overall/header.php'; ?>
 
-<body class="inicio">
-
-<?php  require '../../all/overall/menu.php' ?>
-
-<div class="jumbotron">
-<div class="row justify-content-center">
-    <div class="col-lg-9">
-        <div class="card border-dark mb-3">
-          <div class="card-header"><i class="fas fa-images"></i> Ingresar imagen de producto</div>
-          <div class="card-body">
-            <div class="row justify-content-center">
-            <div class="col-lg-5">
-              <h4 class="card-title">Ingresar imagen de producto</h4>
-            </div>
-            </div><br>
-           <form action="model.php" method="post" enctype="multipart/form-data">
+ <body class="inicio">
+  <?php  require '../../all/overall/menu.php' ?>
+  <div class="jumbotron">
+  <div class="row justify-content-center">
+   <div class="col-lg-9">
+    <div class="card border-dark mb-3">
+     <div class="card-header"><i class="fas fa-images"></i> Ingresar imagen de producto</div>
+      <div class="card-body">
+       <div class="row justify-content-center">
+        <div class="col-lg-5"><h4 class="card-title">Ingresar imagen de producto</h4></div>
+       </div><br>
+       <form action="model.php" method="post" enctype="multipart/form-data">
            <div class="row justify-content-center">
             <div class="col-lg-3">
                     <div class="form-group">

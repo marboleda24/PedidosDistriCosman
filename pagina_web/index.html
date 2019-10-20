@@ -13,7 +13,7 @@
    Fecha Actualización Noviembre/11/2018
    Version 1
   -->
-  
+
   <title>Districosman</title>
 
   <!-- Bootstrap core CSS -->
@@ -88,7 +88,7 @@
   <!-- Page Content -->
   <div class="container">
    <h2 class="my-4">Districosman, los mejores y mas variados productos para la Belleza</h2>
-   <p>Empresa Antioqueña dedicada a la promoción, comercialización y distribución de productos para el cuidado del cuerpo y la belleza</p> 
+   <p>Empresa Antioqueña dedicada a la promoción, comercialización y distribución de productos para el cuidado del cuerpo y la belleza</p>
    <ul>
     <li><h5>Valores:</h5> Honestidad, Compromiso, Cumplimiento</li>
     <li><h5>Ubicación: </h5></li>
@@ -138,39 +138,45 @@
      <br>
      <div class="modal-body">
       <form action="../registro/registro.php" method="post">
+        <div class="row justify-content-center">
+         <div class="col-lg-6">
+          <label class="col-form-label" for="inputDefault">(*) Seleccione un usuario</label>
+          <input type="text" class="form-control" placeholder="Seleccione un usuario" id="usuario" name="usuario" required>
+         </div>
+        </div>
        <div class="row justify-content-center">
         <div class="col-lg-4">
          <label class="col-form-label" for="inputDefault">(*) Nombres</label>
-         <input type="text" class="form-control" placeholder="" id="nombre" name="nombre" required>
+         <input type="text" class="form-control" placeholder="Registre el nombre completo" id="nombre" name="nombre" required>
         </div>
         <div class="col-lg-4">
          <label class="col-form-label" for="inputDefault">(*) Cedula</label>
-         <input type="text" class="form-control" placeholder="" id="cedula" name="documento" required>
+         <input type="text" class="form-control" placeholder="Identificación del usuario" id="cedula" name="documento" required>
         </div>
         <div class="col-lg-4">
          <label class="col-form-label" for="inputDefault">(*) Digite una contraseña</label>
-         <input class="form-control" id="pass1" name="pass" placeholder="" required type="password"/>
+         <input class="form-control" id="pass1" name="pass" placeholder="Digite una contaseña" required type="password"/>
          <p class="text-danger" id="contra"></p>
         </div>
        </div>
        <div class="row">
         <div class="col-lg-4">
          <label class="col-form-label" for="inputDefault">(*) Telefono</label>
-         <input type="text" class="form-control" placeholder="" id="telefono" name="telefono" required>
+         <input type="text" class="form-control" placeholder="Digite Telefono de contacto" id="telefono" name="telefono" required>
         </div>
         <div class="col-lg-4">
          <label class="col-form-label" for="inputDefault">(*) Direccion</label>
-         <input type="text" class="form-control" placeholder="" name="direccion" id="direccion" required>
+         <input type="text" class="form-control" placeholder="Ingrese dirección" name="direccion" id="direccion" required>
         </div>
         <div class="col-lg-4">
          <label class="col-form-label" for="inputDefault">(*) Barrio</label>
-         <input type="text" class="form-control" placeholder="" name="barrio" id="barrio" required>
+         <input type="text" class="form-control" placeholder="Ingrese el Barrio" name="barrio" id="barrio" required>
         </div>
        </div>
        <div class="row">
         <div class="col-lg-4">
          <label class="col-form-label" for="inputDefault">(*) Ciudad</label>
-         <input type="text" class="form-control" placeholder="" name="ciudad" id="ciudad" required>
+         <input type="text" class="form-control" placeholder="Ingrese ciudad" name="ciudad" id="ciudad" required>
         </div>
        </div>
        <div class="row">
@@ -185,7 +191,7 @@
     </div>
    </div>
   </div>
-  
+
   <!-- Footer -->
   <footer class="py-5 bg-dark">
    <div class="container">
