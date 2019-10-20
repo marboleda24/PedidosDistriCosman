@@ -17,5 +17,6 @@
   header("location:app/".$_GET['view']."/index.php");
  }
  else {
+  //Solo voy a hacer un cambio para probar;
   header("location:app/web/");
  }
