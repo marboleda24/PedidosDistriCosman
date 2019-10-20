@@ -21,32 +21,32 @@
            <div class="row justify-content-center">
             <div class="col-lg-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Ingrese el nombre" id="inputDefault" name="nombre">
+                      <input type="text" class="form-control" placeholder="Ingrese el nombre" id="inputDefault" name="nombre" required>
                     </div>
               </div>
               <div class="col-lg-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Numero Documento" id="inputDefault" name="documento">
+                      <input type="text" class="form-control" placeholder="Numero Documento" id="inputDefault" name="documento" required>
                     </div>
               </div>
               <div class="col-lg-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Telefono" id="inputDefault" name="telefono">
+                      <input type="text" class="form-control" placeholder="Telefono" id="inputDefault" name="telefono" required>
                     </div>
               </div>
               <div class="col-lg-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Direccion" id="inputDefault" name="direccion">
+                      <input type="text" class="form-control" placeholder="Direccion" id="inputDefault" name="direccion" required>
                     </div>
               </div>
               <div class="col-lg-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Barrio" id="inputDefault" name="barrio">
+                      <input type="text" class="form-control" placeholder="Barrio" id="inputDefault" name="barrio" required>
                     </div>
               </div>
               <div class="col-lg-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Ciudad" id="inputDefault" name="ciudad">
+                      <input type="text" class="form-control" placeholder="Ciudad" id="inputDefault" name="ciudad" required>
                       <input type="hidden" value="1" class="form-control" id="inputDefault" name="rol">
                     </div>
               </div>
@@ -74,32 +74,32 @@
               <div class="row justify-content-center">
                <div class="col-lg-12">
                        <div class="form-group">
-                         <input type="text" class="form-control" placeholder="Ingrese el nombre" id="inputDefault" name="nombre">
+                         <input type="text" class="form-control" placeholder="Ingrese el nombre" id="inputDefault" name="nombre" required>
                        </div>
                  </div>
                  <div class="col-lg-12">
                        <div class="form-group">
-                         <input type="text" class="form-control" placeholder="Numero Documento" id="inputDefault" name="documento">
+                         <input type="text" class="form-control" placeholder="Numero Documento" id="inputDefault" name="documento" required>
                        </div>
                  </div>
                  <div class="col-lg-12">
                        <div class="form-group">
-                         <input type="text" class="form-control" placeholder="Telefono" id="inputDefault" name="telefono">
+                         <input type="text" class="form-control" placeholder="Telefono" id="inputDefault" name="telefono" required>
                        </div>
                  </div>
                  <div class="col-lg-12">
                        <div class="form-group">
-                         <input type="text" class="form-control" placeholder="Direccion" id="inputDefault" name="direccion">
+                         <input type="text" class="form-control" placeholder="Direccion" id="inputDefault" name="direccion" required>
                        </div>
                  </div>
                  <div class="col-lg-12">
                        <div class="form-group">
-                         <input type="text" class="form-control" placeholder="Barrio" id="inputDefault" name="barrio">
+                         <input type="text" class="form-control" placeholder="Barrio" id="inputDefault" name="barrio" required>
                        </div>
                  </div>
                  <div class="col-lg-12">
                        <div class="form-group">
-                         <input type="text" class="form-control" placeholder="Ciudad" id="inputDefault" name="ciudad">
+                         <input type="text" class="form-control" placeholder="Ciudad" id="inputDefault" name="ciudad" required>
                          <input type="hidden" value="2" class="form-control" placeholder="Ciudad" id="inputDefault" name="rol">
                        </div>
                  </div>
@@ -127,32 +127,32 @@
              <div class="row justify-content-center">
               <div class="col-lg-12">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Ingrese el nombre" id="inputDefault" name="nombre">
+                        <input type="text" class="form-control" placeholder="Ingrese el nombre" id="inputDefault" name="nombre" required>
                       </div>
                 </div>
                 <div class="col-lg-12">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Numero Documento" id="inputDefault" name="documento">
+                        <input type="text" class="form-control" placeholder="Numero Documento" id="inputDefault" name="documento" required>
                       </div>
                 </div>
                 <div class="col-lg-12">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Telefono" id="inputDefault" name="telefono">
+                        <input type="text" class="form-control" placeholder="Telefono" id="inputDefault" name="telefono" required>
                       </div>
                 </div>
                 <div class="col-lg-12">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Direccion" id="inputDefault" name="direccion">
+                        <input type="text" class="form-control" placeholder="Direccion" id="inputDefault" name="direccion" required>
                       </div>
                 </div>
                 <div class="col-lg-12">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Barrio" id="inputDefault" name="barrio">
+                        <input type="text" class="form-control" placeholder="Barrio" id="inputDefault" name="barrio" required>
                       </div>
                 </div>
                 <div class="col-lg-12">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Ciudad" id="inputDefault" name="ciudad">
+                        <input type="text" class="form-control" placeholder="Ciudad" id="inputDefault" name="ciudad" required>
                         <input type="hidden" value="3" class="form-control" placeholder="Ciudad" id="inputDefault" name="rol">
                       </div>
                 </div>

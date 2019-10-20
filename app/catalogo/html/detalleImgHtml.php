@@ -14,9 +14,6 @@
             <div class="col-lg-8">
               <h4 class="card-title">Catalogo</h4>
             </div>
-            <div class="col-lg-4" style="text-align: right">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lista"><i class="fas fa-cart-arrow-down"></i> Pedido</button>
-            </div>
             </div><br>
            <div class="row">
               <div class="col-lg-4">
@@ -57,7 +54,7 @@
                               <?php echo $resultado['precio'] ?>
                           </td>
                          <td WIDTH="90">
-                              <input size="10" type="number" class="form-control" id="cantidad" value="1" min="1">
+                              <input size="20" type="number" class="form-control" id="cantidad" value="1" min="1">
                               <input type="hidden" class="form-control" id="id_producto" value="<?php echo $resultado['id_producto']?>">
                               <input type="hidden" class="form-control" id="referencia">
                               <input type="hidden" class="form-control" id="titulo">

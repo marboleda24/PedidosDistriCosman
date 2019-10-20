@@ -1,5 +1,18 @@
-<?php require '../../all/overall/header.php'; ?>
-
+<?php 
+ /**
+  * Vista de la administración de Usuarios
+  *
+  * Script que muestra el modulo de gestión de usuarios
+  *
+  * @author Deyner Steven Rendon Valladares <dsrendon@misena.edu.co>
+  * @Editor Martin Arboleda <marboleda@solucionestics.com>
+  * @Fecha Diciembre/18/2018
+  * @FechaEdicion Diciembre/18/2018
+  * @access public
+  * @version 1
+  */
+ require '../../all/overall/header.php';
+?>
 <body class="inicio">
 
 <?php  require '../../all/overall/menu.php' ?>
